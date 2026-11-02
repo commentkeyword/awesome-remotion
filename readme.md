@@ -25,6 +25,7 @@ Contributions are welcome. See [Contributing](#contributing) before opening a pu
 - [Tools](#tools)
 - [Tutorials](#tutorials)
 - [Articles](#articles)
+- [Case Studies](#case-studies)
 - [Community](#community)
 
 ## Official
@@ -36,6 +37,7 @@ Contributions are welcome. See [Contributing](#contributing) before opening a pu
 - [Success Stories](https://www.remotion.dev/success-stories) - Case studies of companies shipping video features with Remotion.
 - [Experts](https://www.remotion.dev/experts) - Directory of freelancers and agencies who work with Remotion.
 - [Remotion Pro](https://www.remotion.pro) - Paid components, templates, and starter kits from the Remotion team.
+- [Brand](https://github.com/remotion-dev/brand) - Official logo and brand assets, made with Remotion itself.
 
 ## Documentation
 
@@ -51,6 +53,14 @@ Contributions are welcome. See [Contributing](#contributing) before opening a pu
 - [Captions](https://www.remotion.dev/docs/captions) - Create, import, and style subtitles.
 - [Effects](https://www.remotion.dev/docs/effects) - Apply visual effects to video and elements.
 - [Mediabunny](https://www.remotion.dev/docs/mediabunny) - Read and write media files in the browser.
+- [Server-Side Rendering](https://www.remotion.dev/docs/ssr) - Render videos from a Node.js server.
+- [Client-Side Rendering](https://www.remotion.dev/docs/client-side-rendering) - Render or preview videos in the browser.
+- [Import from Figma](https://www.remotion.dev/docs/figma) - Bring Figma designs into a composition.
+- [Import from After Effects](https://www.remotion.dev/docs/after-effects) - Bring After Effects projects into Remotion.
+- [Import from Spline](https://www.remotion.dev/docs/spline) - Bring Spline 3D scenes into Remotion.
+- [Canvas Capture](https://www.remotion.dev/docs/canvas-capture) - Capture HTML-in-canvas content as a video.
+- [Timeline](https://www.remotion.dev/docs/timeline) - A customizable, multi-track timeline component for editor UIs (paid).
+- [Editor Starter](https://www.remotion.dev/docs/editor-starter) - A boilerplate for building your own video editor (paid).
 - [AI](https://www.remotion.dev/docs/ai) - Use coding agents and AI tools with Remotion.
 - [Troubleshooting](https://www.remotion.dev/docs/troubleshooting/debug-failed-render) - Debug failed renders and common errors.
 - [License](https://www.remotion.dev/docs/license) - Understand the company license and terms.
@@ -77,7 +87,7 @@ Official npm packages published under the `@remotion` scope.
 - [@remotion/lambda](https://www.npmjs.com/package/@remotion/lambda) - Render videos on AWS Lambda.
 - [@remotion/cloudrun](https://www.npmjs.com/package/@remotion/cloudrun) - Render videos on Google Cloud Run.
 <!--lint ignore awesome-spell-check-->
-- [@remotion/vercel](https://www.npmjs.com/package/@remotion/vercel) - Render videos on Vercel Sandbox.
+- [Vercel Sandbox](https://www.npmjs.com/package/@remotion/vercel) - Render videos on Vercel Sandbox.
 - [@remotion/serverless](https://www.npmjs.com/package/@remotion/serverless) - A runtime for distributed rendering.
 - [@remotion/licensing](https://www.npmjs.com/package/@remotion/licensing) - Manage your Remotion Pro license.
 
@@ -171,6 +181,7 @@ Official starters from the [template catalog](https://www.remotion.dev/templates
 - [Prompt to Video](https://www.remotion.dev/templates/prompt-to-video) - Turn a prompt into a narrated image story.
 - [Prompt to Motion Graphics](https://www.remotion.dev/templates/prompt-to-motion-graphics) - A SaaS starter for AI-powered animation generation.
 - [Element Library](https://www.remotion.dev/templates/element-library) - Build and publish your own Remotion element library.
+- [Editor Starter](https://www.remotion.dev/templates/editor-starter) - A boilerplate for starting your own video editor (paid).
 
 Community templates:
 
@@ -186,7 +197,7 @@ Community templates:
 ## Components
 
 - [Remocn](https://remocn.dev) - Copy-paste animated components, transitions, backgrounds, and scenes.
-- [Remotion UI](https://remotionui.com) - Production-ready motion components and compositions whose source you own.
+- [Remotion UI](https://github.com/riaz37/remotion-ui) - Production-ready motion components and compositions whose source you own.
 - [Remotion Bits](https://remotion-bits.dev) - Ready-made animated components, charts, transitions, and text reveals.
 - [Onda](https://onda.video) - Open-source motion graphics components for Remotion.
 - [Snapcn](https://snapcn.dev) - A shadcn-style registry of Remotion components you install with the CLI.
@@ -206,6 +217,7 @@ Community templates:
 
 ## Examples
 
+- [HTML in Canvas](https://github.com/remotion-dev/html-in-canvas) - The official example for capturing HTML-in-canvas content as a video.
 - [Typewriter Effect](https://github.com/remotion-dev/typewriter) - A classic typewriter animation.
 - [D3.js Charts](https://github.com/remotion-dev/d3-example) - Animate D3 visualizations frame by frame.
 - [Tone.js Music](https://github.com/remotion-dev/tone-js-example) - Generate music with Tone.js.
@@ -236,6 +248,8 @@ Community templates:
 - [GitHub Unwrapped 2022](https://github.com/remotion-dev/github-unwrapped-2022) - The 2022 edition of GitHub Unwrapped.
 - [GitHub Unwrapped 2021](https://github.com/remotion-dev/github-unwrapped-2021) - The 2021 edition of GitHub Unwrapped.
 - [Remotion Trailer](https://github.com/remotion-dev/trailer) - The official promotional video for Remotion.
+- [Remotion Wrapped](https://github.com/JonnyBurger/remotion-wrapped) - A Spotify Wrapped-style animation built by Remotion's founder.
+- [Fireship-Style Videos](https://github.com/wcandillon/remotion-fireship) - Recreate Fireship-style videos with React and Remotion.
 - [Recorder](https://github.com/remotion-dev/recorder) - A video production tool built entirely in JavaScript.
 - [Podcast Maker](https://github.com/FelippeChemello/podcast-maker) - Turn newsletters into narrated videos with motion graphics and text-to-speech.
 - [Stargazer](https://github.com/pomber/stargazer) - Celebrate a repository's star milestone with a video of its stargazers.
@@ -248,15 +262,20 @@ Community templates:
 - [Social Video Generator](https://github.com/lyonjs/social-video-generator) - Conference speaker announcement cards.
 - [Auto Reel Edit](https://github.com/sieve-community/auto-reel-edit) - Captioning and background removal for vertical reels.
 - [OpenMontage](https://github.com/calesthio/OpenMontage) - An open-source, agentic video production system.
+- [OpenChatCut](https://github.com/0xsline/OpenChatCut) - An open-source, local-first conversational AI video editor with a multi-track timeline.
+- [Kimu Video Editor](https://github.com/trykimu/videoeditor) - An open-source CapCut and Canva alternative built on Remotion.
+- [clip-js](https://github.com/mohyware/clip-js) - An online video editor built with Next.js, Remotion, and WebAssembly FFmpeg.
 - [React Video Editor](https://github.com/openvideodev/react-video-editor) - An open-source CapCut and Canva clone.
 - [Short Video Maker](https://github.com/gyoridavid/short-video-maker) - Create shorts for TikTok, Reels, and YouTube with MCP and a REST API.
+- [Cinetic](https://github.com/Leonxlnx/cinetic) - Cinematic launch films and motion design directed by a coding agent.
+- [Vanta](https://github.com/itsjwill/vanta) - An open-source AI video engine with voice cloning, avatars, captions, and 100+ transitions.
 
 ## Tools
 
 - [Remotion CLI](https://www.remotion.dev/docs/cli) - The command-line interface for previewing, rendering, and managing projects.
 - [VS Code Extension](https://marketplace.visualstudio.com/items?itemName=KarelNagel.remotion-vscode) - Preview and inspect compositions inside VS Code.
 - [Agent Skills](https://www.remotion.dev/docs/ai/skills) - Official skills that teach coding agents how to use Remotion.
-- [Remotion Skills](https://github.com/remotion-dev/skills) - The source repository for the official agent skills.
+- [Claude Code Plugin](https://github.com/remotion-dev/claude-code-plugin) - The official Remotion skills packaged as a Claude Code plugin.
 - [Video Shotcraft](https://github.com/Vincentwei1021/video-shotcraft) - An agent skill for cinematic, editable product promos.
 - [GitHub Actions Matrix Renderer](https://github.com/yuvraj108c/Remotion-Matrix-Renderer) - Render videos faster by splitting work across GitHub Actions jobs.
 - [Rustymotion](https://github.com/clearlysid/rustymotion) - An experimental Rust-based renderer for Remotion videos.
@@ -282,6 +301,14 @@ Community templates:
 
 - [Create Videos with Code](https://prismic.io/blog/create-videos-with-code-remotion-tutorial) - A Prismic tutorial on building a video with Remotion.
 - [Remotion on Rails](https://medium.com/@viveknathani/remotion-on-rails-0852acc9595e) - Deploy Remotion on Railway.
+
+## Case Studies
+
+Official write-ups of companies shipping video with Remotion.
+
+- [Typeframes](https://www.remotion.dev/success-stories/typeframes) - A SaaS that generates product promo videos in minutes.
+- [MakeStories](https://www.remotion.dev/success-stories/makestories) - A platform that renders web stories at scale.
+- [shortvid.io](https://www.remotion.dev/success-stories/shortvid) - Automated conference promo material, with the source code open-sourced.
 
 ## Community
 
