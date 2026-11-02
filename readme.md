@@ -203,6 +203,7 @@ Community templates:
 - [Snapcn](https://snapcn.dev) - A shadcn-style registry of Remotion components you install with the CLI.
 - [React Video Editor Templates](https://www.reactvideoeditor.com/remotion-templates) - Open-source video editor and timeline components.
 - [TikTok Text Box](https://github.com/KyleTryon/TikTokTextBox) - A TikTok-style multiline text box.
+- [Comment-to-DM Box](https://github.com/commentkeyword/instagram-mcp-server/tree/main/integrations/remotion) - An Instagram-style comment box for the end of a Reel that types the keyword, shows the reply, and swipes to the DM.
 - [Remotion Animated](https://www.remotion-animated.dev) - Declarative animation helpers for Remotion.
 - [remotion-transition-series](https://github.com/marcusstenbeck/remotion-transition-series) - Sequence transitions built on Remotion Transitions.
 - [remotion-time](https://github.com/fwextensions/remotion-time) - Time-based helpers for Remotion.
